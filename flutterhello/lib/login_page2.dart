@@ -6,7 +6,7 @@ class LoginPage2 extends StatefulWidget {
 }
 
 class _LoginPage2State extends State<LoginPage2> with TickerProviderStateMixin {
-  List<String> strs = ['Hi,', 'wat ', 'is ', 'je ', 'naam?'];
+  List<String> strs = ['Hi,', '请输入手机号',];
   List<AnimationController> _strController = [];
   List<CurvedAnimation> _strPositionAnimation = [];
   double opacity = 0;
@@ -78,15 +78,15 @@ class _LoginPage2State extends State<LoginPage2> with TickerProviderStateMixin {
                     AnimatedStrWidget(
                         animation: _strPositionAnimation[1],
                         child: Text(strs[1])),
-                    AnimatedStrWidget(
-                        animation: _strPositionAnimation[2],
-                        child: Text(strs[2])),
-                    AnimatedStrWidget(
-                        animation: _strPositionAnimation[3],
-                        child: Text(strs[3])),
-                    AnimatedStrWidget(
-                        animation: _strPositionAnimation[4],
-                        child: Text(strs[4])),
+                    // AnimatedStrWidget(
+                    //     animation: _strPositionAnimation[2],
+                    //     child: Text(strs[2])),
+                    // AnimatedStrWidget(
+                    //     animation: _strPositionAnimation[3],
+                    //     child: Text(strs[3])),
+                    // AnimatedStrWidget(
+                    //     animation: _strPositionAnimation[4],
+                    //     child: Text(strs[4])),
                   ],
                 ),
               ),
@@ -104,7 +104,7 @@ class _LoginPage2State extends State<LoginPage2> with TickerProviderStateMixin {
                   child: TextField(
                     focusNode: myFocusNode,
                     decoration: InputDecoration.collapsed(
-                        hintText: 'Jouw naam',
+                        hintText: 'phonenumber',
                         hintStyle: TextStyle(color: Colors.white54)),
                   ),
                 ),

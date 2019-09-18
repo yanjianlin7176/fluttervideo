@@ -102,7 +102,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                       ),
                       color: Color(0xFF58E7ED),
                       child: Text(
-                        'Registrenren',
+                        '注册',
                         style: TextStyle(fontSize: 18),
                       ),
                     ),
@@ -131,7 +131,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                           side: BorderSide(color: Color(0xFF58E7ED), width: 3)),
                       color: Colors.transparent,
                       child: Text(
-                        'Inloggen',
+                        '登录',
                         style:
                             TextStyle(fontSize: 18, color: Color(0xFF58E7ED)),
                       ),
@@ -207,11 +207,11 @@ class _UserAgreementDialogState extends State<UserAgreementDialog>
                     children: <TextSpan>[
                       TextSpan(
                         text:
-                            'Jonw privacy is belangrijk voor ons. jouw now persoonijjke gegevens rowden verwtk in njal oversdffmming met ',
+                            '注册即代表阅读并同意 ',
                         style: TextStyle(fontSize: 16, color: Colors.black),
                       ),
                       TextSpan(
-                        text: 'onze pridvaojgltoand',
+                        text: '服务协议',
                         style:
                             TextStyle(fontSize: 16, color: Color(0xFF58E7ED)),
                       ),
@@ -239,11 +239,11 @@ class _UserAgreementDialogState extends State<UserAgreementDialog>
                         style: TextStyle(height: 1.2),
                         children: <TextSpan>[
                           TextSpan(
-                            text: 'Ik acceptter de ',
+                            text: '我接受 ',
                             style: TextStyle(fontSize: 16, color: Colors.black),
                           ),
                           TextSpan(
-                            text: 'Aligemene Voorwaarden',
+                            text: '隐私政策',
                             style: TextStyle(
                                 fontSize: 16, color: Color(0xFF58E7ED)),
                           ),
@@ -297,7 +297,7 @@ class _UserAgreementDialogState extends State<UserAgreementDialog>
                     index: index,
                     children: <Widget>[
                       Text(
-                        'Accepteer',
+                        '下一步',
                         style: TextStyle(fontSize: 18),
                       ),
                       ScaleTransition(
