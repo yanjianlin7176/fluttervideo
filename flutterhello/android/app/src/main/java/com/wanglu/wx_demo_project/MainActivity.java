@@ -1,4 +1,4 @@
-package com.wanglu.wx_demo_project;
+package com.zhouliutao.ToTovideo;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

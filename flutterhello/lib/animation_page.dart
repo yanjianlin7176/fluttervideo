@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wx_demo_project/widget_animated_up_arrow.dart';
+import 'package:ToTovideo/widget_animated_up_arrow.dart';
 
 class AnimationPage extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wx_demo_project/spread_widget.dart';
+import 'package:ToTovideo/spread_widget.dart';
 
 class SpreadPage extends StatefulWidget {
   @override

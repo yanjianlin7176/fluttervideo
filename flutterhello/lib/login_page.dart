@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wx_demo_project/custom_checkbox.dart';
+import 'package:ToTovideo/custom_checkbox.dart';
 
 import 'login_page2.dart';
 

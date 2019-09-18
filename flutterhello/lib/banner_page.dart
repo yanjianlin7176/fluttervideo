@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wx_demo_project/widget_banner.dart';
+import 'package:ToTovideo/widget_banner.dart';
 
 class BannerPage extends StatefulWidget {
   @override
