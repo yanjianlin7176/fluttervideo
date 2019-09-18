@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhello/custom_checkbox.dart';
+import 'package:wx_demo_project/custom_checkbox.dart';
 
 import 'login_page2.dart';
 
@@ -207,11 +207,11 @@ class _UserAgreementDialogState extends State<UserAgreementDialog>
                     children: <TextSpan>[
                       TextSpan(
                         text:
-                            '请仔细阅读下方的协议 ',
+                            'Jonw privacy is belangrijk voor ons. jouw now persoonijjke gegevens rowden verwtk in njal oversdffmming met ',
                         style: TextStyle(fontSize: 16, color: Colors.black),
                       ),
                       TextSpan(
-                        text: 'Coco视频服务条款',
+                        text: 'onze pridvaojgltoand',
                         style:
                             TextStyle(fontSize: 16, color: Color(0xFF58E7ED)),
                       ),
@@ -239,11 +239,11 @@ class _UserAgreementDialogState extends State<UserAgreementDialog>
                         style: TextStyle(height: 1.2),
                         children: <TextSpan>[
                           TextSpan(
-                            text: '我已经阅读了 ',
+                            text: 'Ik acceptter de ',
                             style: TextStyle(fontSize: 16, color: Colors.black),
                           ),
                           TextSpan(
-                            text: 'Coco视频服务协议',
+                            text: 'Aligemene Voorwaarden',
                             style: TextStyle(
                                 fontSize: 16, color: Color(0xFF58E7ED)),
                           ),
@@ -297,7 +297,7 @@ class _UserAgreementDialogState extends State<UserAgreementDialog>
                     index: index,
                     children: <Widget>[
                       Text(
-                        '我接受',
+                        'Accepteer',
                         style: TextStyle(fontSize: 18),
                       ),
                       ScaleTransition(

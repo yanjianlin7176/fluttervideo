@@ -6,7 +6,7 @@ class LoginPage2 extends StatefulWidget {
 }
 
 class _LoginPage2State extends State<LoginPage2> with TickerProviderStateMixin {
-  List<String> strs = ['Hi,', '请输入您的手机号?'];
+  List<String> strs = ['Hi,', 'wat ', 'is ', 'je ', 'naam?'];
   List<AnimationController> _strController = [];
   List<CurvedAnimation> _strPositionAnimation = [];
   double opacity = 0;
@@ -78,6 +78,15 @@ class _LoginPage2State extends State<LoginPage2> with TickerProviderStateMixin {
                     AnimatedStrWidget(
                         animation: _strPositionAnimation[1],
                         child: Text(strs[1])),
+                    AnimatedStrWidget(
+                        animation: _strPositionAnimation[2],
+                        child: Text(strs[2])),
+                    AnimatedStrWidget(
+                        animation: _strPositionAnimation[3],
+                        child: Text(strs[3])),
+                    AnimatedStrWidget(
+                        animation: _strPositionAnimation[4],
+                        child: Text(strs[4])),
                   ],
                 ),
               ),
@@ -95,7 +104,7 @@ class _LoginPage2State extends State<LoginPage2> with TickerProviderStateMixin {
                   child: TextField(
                     focusNode: myFocusNode,
                     decoration: InputDecoration.collapsed(
-                        hintText: '手机号',
+                        hintText: 'Jouw naam',
                         hintStyle: TextStyle(color: Colors.white54)),
                   ),
                 ),
