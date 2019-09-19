@@ -1,2 +1,2 @@
 # fluttervideo
-基于flutter的一个视频APP小项目
+基于flutter的测试项目
